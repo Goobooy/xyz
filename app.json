@@ -1,0 +1,38 @@
+{
+    "name": "XrayHeroku",
+    "description": "xray websocket proxy on heroku",
+    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "env": {
+        "AA": {
+            "description": "UUID——Deploy app",
+            "value": "——"
+        },
+        "AUUID": {
+            "description": "UUID: https://www.uuidgenerator.net",
+            "value": "678b2597-397c-4cfd-80ac-26e1fe57a82a"
+        },
+        "CADDYIndexPage": {
+            "description": "——",
+            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+        },
+        "CONFIGCADDY": {
+            "description": "——",
+            "value": "https://raw.githubusercontent.com/Goobooy/xyz/master/etc/Caddyfile"
+        },
+        "CONFIGXRAY": {
+            "description": "——",
+            "value": "https://raw.githubusercontent.com/Goobooy/xyz/master/etc/xray.json"
+        },
+        "ParameterSSENCYPT": {
+            "description": "——",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "list",
+            "value": "https://raw.githubusercontent.com/Goobooy/xyz/master/etc/StoreFiles"
+        }
+    },
+    "website": "https://github.com/Goobooy/xyz",
+    "repository": "https://github.com/Goobooy/xyz",
+    "stack": "container"
+}
